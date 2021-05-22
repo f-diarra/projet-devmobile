@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
+        <script src="lib/jquery-1.9.1.min.js"></script>
+        <link rel="stylesheet" href="lib/jquery.mobile-1.4.5.min.css" />
+        <script src="lib/jquery.mobile-1.4.5.min.js"></script>
+        <script src="cordova.js"></script>
+        <script src="js/index.js"></script>
+        <title>Mes Contacts</title>
+    </head>
+    <body>
+        <div id="contact-list" data-role="page">
+        <div data-role="header">
+            <h1>Mes Contacts</h1>
+        </div>
+        <div data-role="content">
+            <ul id="contactList" data-role="listview" data-inset="true" data-filter="true" data-filter-placeholder="Rechercher un contact...">
+                <li>
+                    <a href="#contact-show1">
+                        <img src="img/contacts.png" width="20%" >
+                        <h1>Fatoumata DIARRA</h1>
+                        <p>77 312 41 56</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#contact-show2">
+                        <img src="img/contacts.png" width="20%">
+                        <h1>Awa Yande DIOUF</h1>
+                        <p>77 886 82 12</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+       
+    <div data-role="footer" data-position="fixed">
+        <h3>Mes contacts &copy; Mai 2021</h3>
+    </div>
+        </div>
+        <div data-role="page" id="contact-show1">
+            <div data-role="header">
+                <h1>Profil d'un contact</h1>
+            </div>
+            <div data-role="content">
+                <ul data-role="listview" data-inset="true">
+                    <li>
+                    <img src="img/contact.png" width="20%">
+                    <h1>Nom du contact</h1>
+                    <p id="contactName">Fatoumata DIARRA</p>
+                </li>
+                <li>
+                    <h1>Téléphone</h1>
+                    <p id="contactNumber">77 312 41 56</p>
+                </li>
+                <li>
+                    <h1>Email</h1>
+                    <p id="contactEmail">fdiarra.esp.sn</p>
+                </li>
+                <li>
+                    <h1>Adresse</h1>
+                    <p id="contactAdress">Ouakam</p>
+                </li>
+                </ul>
+            </div>
+            <div data-role="footer" data-position="fixed">
+                <h3>Mes contacts &copy; Mai 2021</h3>
+
+            </div>
+        </div>
+        <div data-role="page" id="contact-show2">
+            <div data-role="header">
+                <h1>Profil d'un contact</h1>
+            </div>
+            <div data-role="content">
+                <ul data-role="listview" data-inset="true">
+                    <li>
+                    <img src="img/contact.png" width="20%">
+                    <h1>Nom du contact</h1>
+                    <p id="contactName">Awa Yande DIOUF</p>
+                </li>
+                <li>
+                    <h1>Téléphone</h1>
+                    <p id="contactNumber">77 886 82 12</p>
+                </li>
+                <li>
+                    <h1>Email</h1>
+                    <p id="contactEmail">aydiouf.esp.sn</p>
+                </li>
+                <li>
+                    <h1>Adresse</h1>
+                    <p id="contactAdress">Fass</p>
+                </li>
+                </ul>
+            </div>
+            <div data-role="footer" data-position="fixed">
+                <h3>Mes contacts &copy; Mai 2021</h3>
+
+            </div>
+        </div>
+    </body>
+</html>
