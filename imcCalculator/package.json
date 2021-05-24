@@ -1,5 +1,5 @@
 {
-  "name": "sn.seydina.imccalculator",
+  "name": "imccalculator",
   "displayName": "IMC Calculator",
   "version": "1.0.0",
   "description": "A sample Apache Cordova application that responds to the deviceready event.",
